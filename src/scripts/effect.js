@@ -147,7 +147,7 @@ $('document').ready(function(){
 		$('#self').animate({top:mid-mid_diff*4,left:vw},3000);
 
 		$('#f1').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
-		$('#f1').animate({top:mid-mid_diff*3,left:vw-vw_diff*6},3000);
+		$('#f1').animate({top:mid-mid_diff*3,left:vw-vw_diff*15},3000);
 
 
 		$('#f2').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
