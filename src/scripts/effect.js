@@ -132,8 +132,11 @@ $('document').ready(function(){
 		loopSix();
 		loopSeven();
 		
+		/* $(this).fadeOut('slow').delay(5000).promise().done(function(){
+			$('#invite_friends').fadeIn('slow'); */
+
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
-			$('#invite_friends').fadeIn('slow');
+			$('#cake_fadein').fadeIn('slow');
 		});
 	});	
 
@@ -199,8 +202,12 @@ $('document').ready(function(){
 		$('#candle').css("display", "block");
 
 		$('#cake_pink').fadeIn('slow');
+		
+		/* $(this).fadeOut('slow').delay(3000).promise().done(function(){
+			$('#dj_time').fadeIn('slow'); */
+
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
-			$('#dj_time').fadeIn('slow');
+			$('#story').fadeIn('slow');
 		});
 	});
 
@@ -254,6 +261,7 @@ $('document').ready(function(){
 		$('#b77').animate({top:240, left: 2*vw},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
+  
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
