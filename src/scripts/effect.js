@@ -1,9 +1,9 @@
- $(window).load(function(){
+ /* $(window).load(function(){
 	$('.loading').fadeOut('fast');
-	$('.container').fadeIn('fast');
+	$('.container').fadeIn('fast'); */
 
-	 /* (window).load(function(){
-		window.location.replace("src/html/surprise.html") */
+	  $ (window).load(function(){
+		window.location.replace("https://luongnguyeen.github.io/HBD_021") 
 });
 
 $('document').ready(function(){
