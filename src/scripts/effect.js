@@ -1,7 +1,11 @@
  $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
+
+	 /* (window).load(function(){
+		window.location.replace("src/html/surprise.html") */
 });
+
 $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
