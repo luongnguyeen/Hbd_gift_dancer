@@ -1,4 +1,4 @@
-$(window).load(function(){
+ $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
@@ -144,7 +144,7 @@ $('document').ready(function(){
 		 mid_diff = mid/12;
 		 vw_diff = vw/12;
 		$('#self').css({"display": "block", "bottom":'0px',"left":vw+'px'});
-		$('#self').animate({top:mid-mid_diff*4,left:vw},3000);
+		$('#self').animate({top:mid-mid_diff*6,left:vw},3000);
 
 		$('#f1').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
 		$('#f1').animate({top:mid-mid_diff*6,left:vw-vw_diff*15},3000);
@@ -155,7 +155,7 @@ $('document').ready(function(){
 
 
 		$('#f3').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
-		$('#f3').animate({top:mid-mid_diff*2,left:vw-vw_diff*4},3000);
+		$('#f3').animate({top:mid-mid_diff*6,left:vw-vw_diff*4},3000);
 
 		$('#f4').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
 		$('#f4').animate({top:mid-mid_diff*2,left:vw+vw_diff*4},3000);
