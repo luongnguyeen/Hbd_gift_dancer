@@ -9,7 +9,8 @@ body {
 	overflow-x:hidden;
 }
 .container {
-	display: none;
+	display: block;
+	/* display: none; */
 }
 .peach {
 	background-color: #FFDAB9;
