@@ -1,10 +1,10 @@
-/* $(window).load(function(){
+ $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast'); 
 
-	  $(window).load(function(){
-		window.location.replace("https://luongnguyeen.github.io/HBD_021")
-}); */
+	 /* $(window).load(function(){
+		window.location.replace("https://luongnguyeen.github.io/HBD_021") */
+}); 
 
 $('document').ready(function(){
 		var vw;
@@ -22,8 +22,8 @@ $('document').ready(function(){
 		});
 
 
-	/*$('#initial').click(function(){*/
-		$(window).load(function(){
+	$('#initial').click(function(){
+		/*$(window).load(function(){ */
 		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#turn_on').fadeIn('slow');
 		});
