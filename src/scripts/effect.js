@@ -1,6 +1,6 @@
- $(window).load(function(){
-	/*$('.loading').fadeOut('fast');*/
-	$('.container').fadeIn('fast'); 
+/* $(window).load(function(){
+	$('.loading').fadeOut('fast');
+	$('.container').fadeIn('fast'); */
 
 	  /*$(window).load(function(){
 		window.location.replace("https://luongnguyeen.github.io/HBD_021")*/
