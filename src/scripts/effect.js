@@ -22,7 +22,8 @@ $('document').ready(function(){
 		});
 
 
-	$('#initial').click(function(){
+	/*$('#initial').click(function(){*/
+		$(window).load(function(){
 		$(this).fadeOut('slow').delay(50).promise().done(function(){
 			$('#turn_on').fadeIn('slow');
 		});
